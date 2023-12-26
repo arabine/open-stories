@@ -1,0 +1,158 @@
+{
+    "nodegraph": {
+        "connections": [
+            {
+                "inNodeId": 5,
+                "inPortIndex": 0,
+                "outNodeId": 4,
+                "outPortIndex": 1
+            },
+            {
+                "inNodeId": 3,
+                "inPortIndex": 0,
+                "outNodeId": 4,
+                "outPortIndex": 0
+            },
+            {
+                "inNodeId": 6,
+                "inPortIndex": 0,
+                "outNodeId": 5,
+                "outPortIndex": 0
+            },
+            {
+                "inNodeId": 7,
+                "inPortIndex": 0,
+                "outNodeId": 3,
+                "outPortIndex": 0
+            }
+        ],
+        "nodes": [
+            {
+                "id": 5,
+                "inPortCount": 1,
+                "internal-data": {
+                    "image": "fairy.png",
+                    "sound": "la_fee_luminelle.mp3"
+                },
+                "outPortCount": 1,
+                "position": {
+                    "x": -497.0,
+                    "y": -286.0
+                },
+                "type": "media-node"
+            },
+            {
+                "id": 4,
+                "inPortCount": 1,
+                "internal-data": {
+                    "image": "",
+                    "sound": "qui_sera_le_hero.mp3"
+                },
+                "outPortCount": 2,
+                "position": {
+                    "x": -1430.0,
+                    "y": -600.0
+                },
+                "type": "media-node"
+            },
+            {
+                "id": 3,
+                "inPortCount": 1,
+                "internal-data": {
+                    "image": "bird.png",
+                    "sound": "un_oiseau.mp3"
+                },
+                "outPortCount": 1,
+                "position": {
+                    "x": -486.0,
+                    "y": -827.0
+                },
+                "type": "media-node"
+            },
+            {
+                "id": 6,
+                "inPortCount": 1,
+                "internal-data": {
+                    "image": "dragon.png",
+                    "sound": "story1_drako_luminelle_sceptre.mp3"
+                },
+                "outPortCount": 1,
+                "position": {
+                    "x": 207.0,
+                    "y": -241.0
+                },
+                "type": "media-node"
+            },
+            {
+                "id": 7,
+                "inPortCount": 1,
+                "internal-data": {
+                    "image": "",
+                    "sound": ""
+                },
+                "outPortCount": 1,
+                "position": {
+                    "x": 234.0,
+                    "y": -819.0
+                },
+                "type": "media-node"
+            }
+        ]
+    },
+    "project": {
+        "name": "Les aventures de Drako le dragon",
+        "title_image": "dragon.png",
+        "title_sound": "intro_drako_le_dragon.mp3",
+        "uuid": "ba869e4b-03d6-4249-9202-85b4cec767a7"
+    },
+    "resources": [
+        {
+            "description": "aaaaaaaaaaaaa",
+            "file": "bird.png",
+            "format": "PNG",
+            "type": "image"
+        },
+        {
+            "description": "",
+            "file": "un_oiseau.mp3",
+            "format": "MP3",
+            "type": "sound"
+        },
+        {
+            "description": "bbbbbb",
+            "file": "qui_sera_le_hero.mp3",
+            "format": "MP3",
+            "type": "sound"
+        },
+        {
+            "description": "",
+            "file": "la_fee_luminelle.mp3",
+            "format": "MP3",
+            "type": "sound"
+        },
+        {
+            "description": "",
+            "file": "fairy.png",
+            "format": "PNG",
+            "type": "image"
+        },
+        {
+            "description": "",
+            "file": "story1_drako_luminelle_sceptre.mp3",
+            "format": "MP3",
+            "type": "sound"
+        },
+        {
+            "description": "",
+            "file": "dragon.png",
+            "format": "PNG",
+            "type": "image"
+        },
+        {
+            "description": "nnnnn",
+            "file": "intro_drako_le_dragon.mp3",
+            "format": "MP3",
+            "type": "sound"
+        }
+    ]
+}
